@@ -33,7 +33,7 @@ resource "azurerm_container_group" "tfcg_test" {
 
   container {
       name            = "weatherapi"
-      image           = "bhanudocker/weatherapi:latest"
+      image           = "mcr.microsoft.com/azuredocs/aci-helloworld:latest"
         cpu             = "1"
         memory          = "1"
 
